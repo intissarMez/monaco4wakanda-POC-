@@ -1,0 +1,23 @@
+{
+    "extension": {
+        "name": "Monaco For Wakanda",
+        "version": "1.0.0",
+        "icon": "icon.png",
+        "description": "An HTML and CSS editor for Wakanda Studio",
+        "actions": [{
+            "name": "init",
+            "title": "Init",
+            "trigger": [
+                    {"event": "onSolutionOpened"}
+                ]
+        }],
+        "editors": [{
+            "fileExtensions": ["html"],
+            "editor": "index.html",
+            "operations": {
+              
+              }
+        }],
+        "lifetime": "application_lifetime"
+    }
+}
